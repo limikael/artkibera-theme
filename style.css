@@ -1,0 +1,74 @@
+/*
+ Theme Name:   ArtKibera
+ Theme URI:    http://github.com/limikael/artkibera-theme
+ Description:  Twenty Fifteen Child Theme
+ Author:       Mikael Lindqvist
+ Template:     nisarg
+ Version:      1.0.0
+ Text Domain:  artkibera
+*/
+
+.type-product .entry-summary {
+	margin-left: 0 !important;
+	padding-left: 0 !important;
+}
+
+/**** Author list ****/
+.author-list {
+/*    background: #f80;*/
+}
+
+.author-list .user {
+	display: block;
+	float: none !important;
+	position: relative;
+	min-height: 120px;
+}
+
+.author-list .user .name {
+	position: absolute;
+	top: 0;
+	left: 130px;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-size: 18px !important;
+}
+
+.author-list .user img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0;
+	padding: 3px;
+	width: 100px;
+	border: 1px solid #ccc;
+	border-radius: 0;
+}
+
+.author-list .user .biography {
+	padding: 0;
+  	margin: 0;
+	text-align: left;
+	margin-left: 128px;
+	margin-top: 25px;
+}
+
+/**** Author page. ****/
+.author-page img.avatar {
+	border-radius: 0;
+	padding: 3px;
+	border: 1px solid #ccc;
+	float: left;
+	margin-right: 20px;
+	width: 150px;
+}
+
+.product-author-info img.avatar {
+	border-radius: 0;
+	padding: 3px;
+	border: 1px solid #ccc;
+	float: left;
+	margin-right: 20px;
+	width: 100px;
+}
