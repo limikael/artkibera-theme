@@ -28,7 +28,7 @@
 .author-list .user .name {
 	position: absolute;
 	top: 0;
-	left: 130px;
+	left: 120px;
 	margin: 0;
 	padding: 0;
 	color: #000;
@@ -42,6 +42,7 @@
 	margin: 0;
 	padding: 3px;
 	width: 100px;
+	height: 100px;
 	border: 1px solid #ccc;
 	border-radius: 0;
 }
@@ -50,8 +51,21 @@
 	padding: 0;
   	margin: 0;
 	text-align: left;
-	margin-left: 128px;
+	margin-left: 118px;
 	margin-top: 25px;
+}
+
+/**** Author list for mobile. ****/
+@media (max-width: 600px) {
+	.author-list .user .name {
+		top: 115px;
+		left: 2px;
+	}
+
+	.author-list .user .biography {
+		margin-top: 140px;
+		margin-left: 0px;
+	}
 }
 
 /**** Author page. ****/
